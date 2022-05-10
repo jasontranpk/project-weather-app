@@ -1,17 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="main.js" defer></script>
-    <title>WEATHER APP</title>
+    <title>The Weather App</title>
 </head>
+
 <body>
-    <form action="">
-        <label for="location">Your city</label>
-        <input type="text" id="searchInput">
-        <input type="submit" value="Search" id="searchBtn">
-    </form>
+
+    <div class="container">
+        <div class="top">
+            <div class="location-info">
+                <form action="">
+                    <label for="location">Your city</label>
+                    <input type="text" id="searchInput">
+                    <input type="submit" value="Search" id="searchBtn">
+                </form>
+                <p class="city-name"></p>
+                <p class="current-time">14:12 May 10</p>
+                <p class="current-temperature">28 &#8451;</p>
+                <p class="current-weather"></p>
+                <img src="" alt="Weather Icon" class="weather-icon">
+            </div>
+            <div class="more-info">
+                <div class="info-item">
+                    <img src="" class="feels-like-icon icon" alt="icon">
+                    <p class="small-title">Feels like</p>
+                    <p class="feels-like">18oC</p>
+                </div>
+                <div class="info-item">
+                    <img src="" alt="icon" class="humidity-icon icon">
+                    <p class="small-title">Humidity</p>
+                    <p class="humidity">18oC</p>
+                </div>
+                <div class="info-item">
+                    <img src="" alt="icon" class="pressure-icon icon">
+                    <p class="small-title">Pressure</p>
+                    <p class="pressure">18oC</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="mid">
+            
+
+        </div>
+        <div class="footer">
+            <p>Copyright &copy; TranSon</p>
+            <p>
+                Photo by <a href="https://unsplash.com/@aronvisuals" target="_blank">Aron Visuals</a> on <a
+                    href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                    target="_blank">Unsplash</a>
+            </p>
+
+        </div>
+
+    </div>
 </body>
+
 </html>
